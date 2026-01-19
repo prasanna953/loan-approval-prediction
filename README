@@ -1,0 +1,25 @@
+# 🏦 Loan Approval Prediction using Machine Learning
+
+This project predicts whether a loan application will be **approved or rejected** based on applicant financial and personal details.
+
+##  Features
+- Data cleaning & preprocessing
+- Feature encoding and scaling
+- Multiple ML models (Logistic Regression, Decision Tree, Random Forest)
+- Model comparison & selection
+- Streamlit web application for real-time prediction
+
+##  Best Model
+- **Random Forest Classifier**
+- Accuracy: **~98%**
+
+##  Tech Stack
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- Streamlit
+
+##   Run Locally
+```bash
+pip install -r requirements.txt
+streamlit run app.py
